@@ -1,22 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- 1. Character Encoding & Responsive Viewport (Essential) -->
+  <!-- 1. Character Encoding & Responsive Viewport -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 2. Page Title (Shows on browser tabs and search results) -->
-  <title>Akemi Lazo| Front-End Developer & Designer</title>
+  <!-- 2. Page Title -->
+  <title>Akemi Lazo | Computer Engineer & Designer</title>
 
-  <!-- 3. Page Description (Shows under your title in Google search results) -->
-  <meta name="description" content="Welcome to my personal portfolio. I build web applications and design digital experiences.">
+  <!-- 3. Page Description -->
+  <meta name="description" content="Welcome to the personal portfolio of Akemi Lazo. I build web applications, explore systems engineering, and design digital experiences.">
 
-  <!-- 4. Favicon (The tiny icon on your browser tab) -->
+  <!-- 4. Favicon -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- 5. Link to your External CSS Stylesheet -->
+  <!-- 5. Google Fonts (Aesthetic Typography) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- 6. External CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- 6. Social Media Preview Meta Tags (Open Graph for sharing links) -->
-  <meta property="og:title" content="Jane Doe | Portfolio">
-  <meta property="og:description" content="Check out my latest web projects and work.">
+  <!-- 7. Social Media Preview Meta Tags (Open Graph) -->
+  <meta property="og:title" content="Akemi Lazo | Portfolio">
+  <meta property="og:description" content="Check out my latest software projects and engineering work.">
   <meta property="og:image" content="preview-image.jpg">
 </head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="logo">✨ Akemi Lazo</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <div class="hero-content">
+      <span class="badge">Welcome to my space 🌸</span>
+      <h1>Hi, I'm <span class="highlight">Akemi</span></h1>
+      <p>Building thoughtful software solutions, exploring systems engineering, and creating engaging digital tools.</p>
+      <a href="#projects" class="btn-primary">View My Work ✨</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Featured Projects 💻</h2>
+    <div class="projects-grid">
+      
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <div class="card-tag">Software Development</div>
+        <h3>Interactive Python Application</h3>
+        <p>A hands-on program focusing on logic structure and user interaction.</p>
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>Git</span>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="card-link">View Repository →</a>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <div class="card-tag">Systems & Architecture</div>
+        <h3>C++ System Simulator</h3>
+        <p>A low-level implementation exploring algorithms and memory management.</p>
+        <div class="tech-stack">
+          <span>C++</span>
+          <span>Data Structures</span>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="card-link">View Repository →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2>Technical Toolkit 🛠️</h2>
+    <div class="skills-container">
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">C++</span>
+      <span class="skill-pill">Java</span>
+      <span class="skill-pill">HTML / CSS</span>
+      <span class="skill-pill">Git & GitHub</span>
+      <span class="skill-pill">Canva</span>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <p>Let's connect! 💌</p>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      <a href="mailto:your.email@example.com">Email</a>
+    </div>
+    <p class="copyright">Designed & coded by Akemi Lazo ✨</p>
+  </footer>
+
+</body>
+</html>
