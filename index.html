@@ -1,52 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 1. Character Encoding & Responsive Viewport -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 2. Page Title -->
   <title>Akemi Lazo | Computer Engineer & Designer</title>
 
-  <!-- 3. Page Description -->
-  <meta name="description" content="Welcome to the personal portfolio of Akemi Lazo. I build web applications, explore systems engineering, and design digital experiences.">
-
-  <!-- 4. Favicon -->
+  <meta name="description" content="Portfolio of Akemi Lazo, Computer Engineering student at UC Riverside. Building diagnostic tools, live dashboards, and software solutions.">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- 5. Google Fonts (Aesthetic Typography) -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 
-  <!-- 6. External CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- 7. Social Media Preview Meta Tags (Open Graph) -->
-  <meta property="og:title" content="Akemi Lazo | Portfolio">
-  <meta property="og:description" content="Check out my latest software projects and engineering work.">
-  <meta property="og:image" content="preview-image.jpg">
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- Sky GIF Background Container -->
+  <div class="sky-bg"></div>
+  <div class="sky-overlay"></div>
+
+  <!-- Navigation Header -->
   <header>
     <div class="logo">✨ Akemi Lazo</div>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-      <a href="#contact" class="nav-btn">Contact</a>
+      <a href="Akemi_Lazo_Resume.pdf" target="_blank" class="nav-btn">Resume 📄</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <section id="about" class="hero">
-    <div class="hero-content">
-      <span class="badge">Welcome to my space 🌸</span>
-      <h1>Hi, I'm <span class="highlight">Akemi</span></h1>
-      <p>Building thoughtful software solutions, exploring systems engineering, and creating engaging digital tools.</p>
-      <a href="#projects" class="btn-primary">View My Work ✨</a>
+    <div class="hero-card">
+      <span class="badge">UC Riverside Computer Engineering 🌸</span>
+      <h1>Hi, I'm <span class="highlight">Akemi Lazo</span></h1>
+      <p>Computer Engineering student passionate about building diagnostic tools, deep learning models, and interactive digital applications.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">View Projects ✨</a>
+        <a href="Akemi_Lazo_Resume.pdf" download class="btn-secondary">Download Resume 📄</a>
+      </div>
     </div>
   </section>
 
@@ -55,28 +50,30 @@
     <h2>Featured Projects 💻</h2>
     <div class="projects-grid">
       
-      <!-- Project Card 1 -->
+      <!-- Project 1 -->
       <div class="project-card">
-        <div class="card-tag">Software Development</div>
-        <h3>Interactive Python Application</h3>
-        <p>A hands-on program focusing on logic structure and user interaction.</p>
+        <div class="card-tag">Cybersecurity & Systems</div>
+        <h3>Cybersecurity Diagnostic Tool</h3>
+        <p>Built software tools focusing on network safety, standardization, and vulnerability analysis.</p>
         <div class="tech-stack">
-          <span>Python</span>
+          <span>Cybersecurity</span>
+          <span>C++</span>
           <span>Git</span>
         </div>
-        <a href="https://github.com/akookie-sudo" target="_blank" class="card-link">View Repository →</a>
+        <a href="https://github.com/yourusername" target="_blank" class="card-link">View on GitHub →</a>
       </div>
 
-      <!-- Project Card 2 -->
+      <!-- Project 2 -->
       <div class="project-card">
-        <div class="card-tag">Systems & Architecture</div>
-        <h3>C++ System Simulator</h3>
-        <p>A low-level implementation exploring algorithms and memory management.</p>
+        <div class="card-tag">Deep Learning & Analytics</div>
+        <h3>Live Data Analytics Dashboard</h3>
+        <p>Cleaned datasets and deployed live dashboards to evaluate performance and analyze real-world metrics.</p>
         <div class="tech-stack">
-          <span>C++</span>
-          <span>Data Structures</span>
+          <span>Java</span>
+          <span>Data Analysis</span>
+          <span>CAD</span>
         </div>
-        <a href="https://github.com/akookie-sudo" target="_blank" class="card-link">View Repository →</a>
+        <a href="https://github.com/yourusername" target="_blank" class="card-link">View on GitHub →</a>
       </div>
 
     </div>
@@ -86,13 +83,13 @@
   <section id="skills" class="skills-section">
     <h2>Technical Toolkit 🛠️</h2>
     <div class="skills-container">
-      <span class="skill-pill">Python</span>
       <span class="skill-pill">C++</span>
       <span class="skill-pill">Java</span>
-      <span class="skill-pill">designing</span>
-      <span class="skill-pill">HTML / CSS</span>
-      <span class="skill-pill">Git & GitHub</span>
-      <span class="skill-pill">CAD</span>
+      <span class="skill-pill">Cybersecurity</span>
+      <span class="skill-pill">CAD & Sketch Software</span>
+      <span class="skill-pill">GitHub / Git</span>
+      <span class="skill-pill">Data Analysis</span>
+      <span class="skill-pill">Quartz Framework</span>
     </div>
   </section>
 
@@ -100,11 +97,11 @@
   <footer id="contact">
     <p>Let's connect! 💌</p>
     <div class="social-links">
-      <a href="https://github.com/akookie-sudo" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/akemilazo" target="_blank">LinkedIn</a>
-      <a href="mailto:akemilazo004@gmail.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="mailto:akemilazo004@gmail.com">Email Me</a>
+      <a href="Akemi_Lazo_Resume.pdf" target="_blank">View Resume</a>
     </div>
-    <p class="copyright">Designed & coded by Akemi Lazo ✨</p>
+    <p class="copyright">Designed & coded with care by Akemi Lazo ✨</p>
   </footer>
 
 </body>
